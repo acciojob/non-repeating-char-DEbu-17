@@ -8,9 +8,9 @@ function firstNonRepeatedChar(str) {
 			obj[str[i]]++;
 		}
 	}
-	for(int i=0; i<str.length; i++){
+	for(let i=0; i<str.length; i++){
 		if(obj[str[i]] == 1){
-			return obj[str[i]];
+			return str[i];
 		}
 	} 
 	return null;
